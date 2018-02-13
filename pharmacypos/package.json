@@ -1,6 +1,6 @@
 {
   "name": "pharmacypos",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "async": "2.1.4",
@@ -23,5 +23,22 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node keystone.js"
-  }
+  },
+  "description": "Pharmacypos members management website",
+  "main": "keystone.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenyanGeek/Members-Site.git"
+  },
+  "keywords": [
+    "membership",
+    "sites",
+    "pharmacypos"
+  ],
+  "author": "Herman Njoroge Chege",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KenyanGeek/Members-Site/issues"
+  },
+  "homepage": "https://github.com/KenyanGeek/Members-Site#readme"
 }
